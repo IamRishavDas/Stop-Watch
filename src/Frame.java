@@ -63,7 +63,7 @@ public class Frame extends JFrame implements ActionListener {
         timer.stop();
         isRunnng = false;
         totalTime = 0;
-        label.setText("00 : 00: 00");
+        label.setText("00:00:00");
     }
 
     public void actionPerformed(ActionEvent e) {
